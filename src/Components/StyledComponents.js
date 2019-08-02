@@ -20,4 +20,7 @@ export const InfoContainer = styled.div`
   padding-bottom: 30px;
   font-size: 1.3rem;
   color: #112D32;
+  @media (max-width: 500px) {
+    width: 90%;
+  }
 `;
