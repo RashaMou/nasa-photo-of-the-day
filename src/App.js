@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import "./index.css";
 import axios from "axios";
 import ApodCard from './Components/ApodCard'
 import ApodInfo from './Components/ApodInfo'
+import ApodHeader from './Components/ApodHeader'
 
 function App() {
 
@@ -23,9 +25,14 @@ function App() {
 //if statement for loading should go here
   return (
     <div className="App">
-      <h2 className='title'>{apod.title}</h2>
-      <ApodCard apod={apod}/>
-      <ApodInfo apod={apod}/>
+      <ApodHeader />
+      <div className='card-container'>
+        <div className='photo-container'>
+          <ApodCard apod={apod}/>
+        </div>
+        <h2 className='title'>{apod.title}</h2>
+        <ApodInfo apod={apod}/>
+      </div>
     </div>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
+import { InfoContainer } from './StyledComponents';
 
 function ApodInfo(props) {
   return (
-    <div className='info-container'>
+    <InfoContainer>
       <p className='explanation'>{props.apod.explanation}</p>
-    </div>
+    </InfoContainer>
   )
 }
       
