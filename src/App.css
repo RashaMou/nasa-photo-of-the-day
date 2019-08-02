@@ -100,6 +100,7 @@ h2 {
   }
   h1 {
     font-size: 2rem;
+    margin: 0 auto;
   }
   .ui {
     display: none;
