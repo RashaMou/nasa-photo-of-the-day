@@ -6,12 +6,13 @@ import { CopyrightButtonContainer } from './StyledComponents';
 
 
 function ApodCard(props) { 
+  console.log('url', props.apod.url)
   return (
     <div className='card'>
       <img className='apod-img' src={props.apod.url} alt={props.apod.title}/>
       <CopyrightButtonContainer>
         <div className='copyright-container'>
-          <small className='copyright'>{props.apod.copyright}</small><br />
+          <small className='copyright'>&copy; {props.apod.copyright}</small><br />
           <small className='date'>
             <Moment format="MMMM DD, YYYY">
               {props.apod.date}
