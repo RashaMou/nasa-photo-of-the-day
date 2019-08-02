@@ -94,3 +94,23 @@ h2 {
   margin-bottom: 30px;
 }
 
+@media (max-width: 500px) {
+  .logo {
+    display:none;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .ui {
+    display: none;
+   }
+
+   h2 {
+     font-size: 1.6rem;
+   }
+   .header-container, .card-container {
+     width: 90%;
+   }
+   
+}
+
