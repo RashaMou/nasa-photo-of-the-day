@@ -14,4 +14,13 @@ https://stackoverflow.com/questions/55212828/how-to-use-material-ui-pickerss-dat
 
 1. How do you style the dynamic text in the Explanation? How do you preserve the links?
 
+## PWA
+
+Convert to progressive web app:
+
+https://blog.bitsrc.io/build-progressive-web-apps-with-react-part-1-63f1fbc564a6
+
+https://blog.bitsrc.io/build-progressive-web-apps-with-react-part-2-be7eb1a7335d
+
+
 

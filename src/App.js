@@ -5,6 +5,7 @@ import axios from "axios";
 import ApodCard from './Components/ApodCard'
 import ApodInfo from './Components/ApodInfo'
 import ApodHeader from './Components/ApodHeader'
+import Emoji from './Components/Emoji'
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
         <h2 className='title'>{apod.title}</h2>
         <ApodInfo apod={apod}/>
       </div>
+      <p className="made-with-love">Made with <Emoji symbol='♥️'/> by Rasha</p>
     </div>
   );
 }

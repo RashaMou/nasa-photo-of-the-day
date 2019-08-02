@@ -41,6 +41,7 @@
    display: flex;
    width: 40%;
    margin: 0 auto;
+   justify-content: space-around;
  }
 
 h1 {
@@ -52,8 +53,9 @@ h1 {
 }
 
 .logo {
-  width: 300px;
-  margin-top: 20px;
+  max-width: 20%;
+  height: 100%;
+  margin-top: 40px;
 }
 
 h2 {
@@ -66,8 +68,7 @@ h2 {
 .card-container {
   width: 40%;
   margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
   background-color: #88BDBC;
 }
 
@@ -91,7 +92,7 @@ h2 {
 }
 
 .explanation {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 500px) {
@@ -113,5 +114,11 @@ h2 {
      width: 90%;
    }
    
+}
+
+.made-with-love {
+  color: whitesmoke;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
 }
 

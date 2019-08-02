@@ -14,10 +14,10 @@ export const InfoContainer = styled.div`
   width: 60%;
   margin: 0 auto;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 50px;
   text-align: justify;
   text-justify: inter-word;
-  padding-bottom: 30px;
   font-size: 1.3rem;
   color: #112D32;
   @media (max-width: 500px) {
