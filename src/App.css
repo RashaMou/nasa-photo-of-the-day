@@ -31,3 +31,94 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.button{
+  background-color:#DA7B93;
+  margin-right: 30px;
+ }
+ 
+ .header-container {
+   display: flex;
+   width: 40%;
+   margin: 0 auto;
+   justify-content: space-around;
+ }
+
+h1 {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  padding-top: 50px;
+}
+
+.logo {
+  max-width: 20%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #88BDBC;
+}
+
+.ui {
+  background-color: #DA7B93;
+ }
+ 
+
+.card {
+  padding-bottom: 10px;  
+}
+ 
+
+.apod-img {
+  width: 100%;
+}
+
+.copyright, .date {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.explanation {
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    display:none;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+  .ui {
+    display: none;
+   }
+
+   h2 {
+     font-size: 1.6rem;
+   }
+   .header-container, .card-container {
+     width: 90%;
+   }
+   
+}
+
+.made-with-love {
+  color: whitesmoke;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+}
+
